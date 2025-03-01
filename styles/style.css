@@ -4,7 +4,11 @@
     font-family: "Quicksand", serif;
 }
 
-common styles
+/* shared styles */
+
+body{
+    background-color: #F7F7F7;
+}
 
 .display-flex{
     display: flex;
@@ -64,5 +68,25 @@ common styles
     border-radius: 12px;
     border: none;
     width: 190px;
+}
 
+/* Responsiveness for Mobile Devices */
+
+
+
+/* banner section styles */
+
+.banner{
+    margin: 0 140px;
+    gap: 35px;
+}
+.banner-title{
+    margin-top: 125px;
+    font-size: 56px;
+}
+#text-1{
+    color: #FEA301;
+}
+#text-2{
+    color: #01ACFD;
 }
