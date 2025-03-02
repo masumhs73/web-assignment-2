@@ -19,6 +19,7 @@ body {
     font-weight: 700;
     color: #000;
     margin-bottom: 80px;
+    margin-top: 0;
 
 }
 
@@ -132,8 +133,7 @@ body {
 /* Curriculum section styles */
 
 .curriculum {
-
-    padding: 100px 135px;
+    padding: 30px 140px 20px 140px;
     background-image: url("../assets/bg.png");
     justify-items: center;
 }
@@ -196,4 +196,14 @@ body {
     font-weight: 900;
     color: #FFF;
     justify-content: center;
+}
+
+/* Responsive Curriculum for mobile devices */
+
+/* Stories section styles */
+
+.stories{
+    padding: 50px 135px 20px 135px;
+    justify-items: center;
+    background-image: url("../assets/bg.png");
 }
