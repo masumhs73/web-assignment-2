@@ -19,7 +19,7 @@ body {
     font-weight: 700;
     color: #000;
     margin-bottom: 80px;
-    margin-top: 0;
+    margin-top: 60px;
 
 }
 
@@ -132,17 +132,18 @@ body {
 
 /* Curriculum section styles */
 
-.curriculum {
-    padding: 30px 140px 20px 140px;
+.curriculum{
     background-image: url("../assets/bg.png");
     justify-items: center;
+    padding: 2px 135px;
+    margin-bottom: 70px;
 }
 
 .curriculum-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 .curriculum-box-title{
     font-size: 1.5rem;
@@ -203,7 +204,49 @@ body {
 /* Stories section styles */
 
 .stories{
-    padding: 50px 135px 20px 135px;
+    padding: 20px 135px;
     justify-items: center;
     background-image: url("../assets/bg.png");
+    margin-bottom: 60px;
 }
+.stories-container{
+    display: flex;
+    gap: 20px;
+}
+.column-1{
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    background-color: #FFF;
+}
+.column-1 img{
+    width: 540px;
+    height: 340px;
+    border-radius: 16px 16px 0 0;
+}
+.column-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.story-content{
+    padding: 35px;
+}
+.story-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.story-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666;
+}
+#column-1-date{
+    width: 175px;
+    height: 47px;
+    border-radius: 47px;
+    border: none;
+    background-color: #3CD8E8;
+    transform: translate(10%, -65%);
+}
+
