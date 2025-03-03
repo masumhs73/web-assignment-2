@@ -261,6 +261,9 @@ body {
     height: 47px;
     border-radius: 47px;
     border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
     background-color: #3CD8E8;
     transform: translate(10%, -65%);
 }
