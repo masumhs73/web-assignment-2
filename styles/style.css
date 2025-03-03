@@ -132,7 +132,7 @@ body {
 
 /* Curriculum section styles */
 
-.curriculum{
+.curriculum {
     background-image: url("../assets/bg.png");
     justify-items: center;
     padding: 2px 135px;
@@ -145,15 +145,18 @@ body {
     gap: 30px;
     margin-bottom: 70px;
 }
-.curriculum-box-title{
+
+.curriculum-box-title {
     font-size: 1.5rem;
     font-weight: 700;
     color: #202020;
 }
-.curriculum-box-description{
+
+.curriculum-box-description {
     font-size: 1rem;
     font-weight: 500;
 }
+
 .curriculum-box-1 {
     padding: 50px 40px 50px 40px;
     border-radius: 18.864px;
@@ -190,7 +193,8 @@ body {
     border: none;
     margin-left: 10px;
 }
-.fa-solid{
+
+.fa-solid {
     height: 24px;
     width: 16px;
     font-size: 25px;
@@ -203,45 +207,56 @@ body {
 
 /* Stories section styles */
 
-.stories{
+.stories {
     padding: 20px 135px;
     justify-items: center;
     background-image: url("../assets/bg.png");
     margin-bottom: 60px;
 }
-.stories-container{
+
+.stories-container {
     display: flex;
     gap: 20px;
+    width: 50%;
+    justify-content: center;
 }
-.column-1{
-    width: 540px;
+
+.column-1 {
+    width: 500px;
     height: 630px;
     border-radius: 16px;
     background-color: #FFF;
 }
-.column-1 img{
-    width: 540px;
+
+.column-1 img {
+    width: 500px;
     height: 340px;
     border-radius: 16px 16px 0 0;
 }
-.column-2{
+
+.column-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
-.story-content{
+
+.story-content {
     padding: 35px;
 }
-.story-title{
+
+.story-title {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
 }
-.story-description{
+
+.story-description {
     font-size: 1rem;
     font-weight: 500;
     color: #666;
 }
-#column-1-date{
+
+#column-1-date {
     width: 175px;
     height: 47px;
     border-radius: 47px;
@@ -250,3 +265,38 @@ body {
     transform: translate(10%, -65%);
 }
 
+.short-story {
+    width: 260px;
+    border-radius: 16px;
+    background-color: #FFF;
+}
+
+.short-story img {
+    width: 260px;
+    border-radius: 16px 16px 0 0;
+}
+
+.short-story-title {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 35px;
+
+}
+
+.column-2 button {
+    width: 160px;
+    height: 38px;
+    border-radius: 47.934px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+    transform: translate(10%, -65%);
+}
+
+#color-1 {
+    background: #95B226;
+}
+#color-2{
+    background-color: #5D58F0;
+}
