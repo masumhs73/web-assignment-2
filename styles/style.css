@@ -312,6 +312,7 @@ body {
     font-size: 1rem;
     font-weight: 700;
     padding: 0 35px;
+    margin: 0;
 
 }
 
@@ -389,7 +390,7 @@ body {
 
 .footer-about li {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     list-style: none;
 }
 
@@ -400,3 +401,5 @@ body {
 .social-media img {
     margin-left: 10px;
 }
+
+/* Responsive Footer for mobile devices */
