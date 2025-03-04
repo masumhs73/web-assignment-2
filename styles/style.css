@@ -349,6 +349,20 @@ body {
 }
 
 /* Responsive Stories for mobile devices */
+@media screen and (max-width: 576px) {
+    .stories{
+        /* padding: 20px; */
+    }
+    .column-1{
+        display: none;
+    }
+    .column-2 .short-story{
+        width: 100%;
+    }
+    .column-2 .short-story img{
+        width: 100%;
+    }
+}
 
 /* Footer section styles */
 
@@ -399,7 +413,28 @@ body {
 }
 
 .social-media img {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Responsive Footer for mobile devices */
+@media screen and (max-width: 576px) {
+    .footer{
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 30px;
+        justify-items: start;
+    }
+    .footer-description{
+        margin: 0;
+    }
+    .footer-about-title{
+        margin: 20px 0;
+    }
+    .social-title{
+        margin-top: 0;
+    }
+    .social-media{
+        justify-items: start;
+        margin-bottom: 30px;
+    }
+}
