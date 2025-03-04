@@ -89,7 +89,17 @@ body {
 }
 
 /* Responsive Header for Mobile Devices */
-
+@media screen and (max-width: 576px) {
+    .nav-title, .nav-list, .nav-button{
+        display: none;
+    }
+    .nav-logo{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        border-bottom: 1px solid #FEA301;
+    }
+}
 
 
 /* banner section styles */
@@ -128,6 +138,25 @@ body {
 }
 
 /* Responsive Banner for Mobile Devices */
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: end;
+        margin: 0 20px;
+        justify-items: center;
+    }
+    .banner-title {
+        margin: 30px 0;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .banner-description{
+        text-align: center;
+    }
+    .banner-info button{
+        transform: translateX(70%);
+    }
+}
 
 
 /* Curriculum section styles */
@@ -226,6 +255,17 @@ body {
 }
 
 /* Responsive Curriculum for mobile devices */
+@media screen and (max-width: 576px) {
+    .curriculum{
+        padding: 20px;
+    }
+    .curriculum-container {
+        grid-template-columns: 1fr;
+    }
+    .curriculum .section-title{
+        font-size: 2rem;
+    }
+}
 
 /* Stories section styles */
 :root {
@@ -298,13 +338,11 @@ body {
 }
 
 .short-story {
-    width: 260px;
     border-radius: 16px;
     background-color: #FFF;
 }
 
 .short-story img {
-    width: 260px;
     border-radius: 16px 16px 0 0;
 }
 
@@ -351,16 +389,21 @@ body {
 /* Responsive Stories for mobile devices */
 @media screen and (max-width: 576px) {
     .stories{
-        /* padding: 20px; */
+        padding: 10px;
     }
     .column-1{
         display: none;
     }
     .column-2 .short-story{
-        width: 100%;
+        width: 100%t;
     }
     .column-2 .short-story img{
         width: 100%;
+    }
+    .column-2 button{
+        width: 140px;
+        padding: 0;
+        font-size: 0.8rem;
     }
 }
 
