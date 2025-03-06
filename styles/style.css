@@ -395,6 +395,9 @@ body {
     .column-1{
         display: none;
     }
+    .column-2{
+        width: 100%;
+    }
     .column-2 .short-story{
         width: 180px;
     }
