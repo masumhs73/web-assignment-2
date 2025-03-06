@@ -390,25 +390,26 @@ body {
 /* Responsive Stories for mobile devices */
 @media screen and (max-width: 576px) { 
     .stories{
-        padding: 10px;
+        padding: 20px;
     }
     .column-1{
         display: none;
     }
     .column-2{
         width: 100%;
+        justify-content: center;
     }
     .column-2 .short-story{
-        width: 180px;
+        width: 160px;
     }
     .column-2 .short-story img{
-        width: 180px;
+        width: 160px;
     }
-    .short-story button{
-        width: 120px;
+    .column-2 button{
+        width: 100px;
         height: 30px;
         padding: 0;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .short-story-title {
         padding: 0 5px;
