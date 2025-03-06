@@ -25,7 +25,31 @@ body {
 
 /* navbar styles */
 
-.navbar {
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+label .logo{
+    color: #111;
+    font-size: 2rem;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -86,7 +110,8 @@ body {
     border-radius: 12px;
     border: none;
     width: 190px;
-}
+} */
+
 
 /* Responsive Header for Mobile Devices */
 @media screen and (max-width: 576px) {
