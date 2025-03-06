@@ -394,7 +394,7 @@ body {
 /* Responsive Stories for mobile devices */
 @media screen and (max-width: 576px) { 
     .stories{
-        padding: 20px;
+        padding: 0;
     }
     .column-1{
         display: none;
@@ -402,26 +402,26 @@ body {
     .column-2{
         width: 100%;
         justify-content: center;
+        gap: 10px;
     }
     .column-2 .short-story{
-        width: 140px;
+        width: 150px;
     }
     .column-2 .short-story img{
-        width: 140px;
+        width: 150px;
     }
     .column-2 button{
         width: 90px;
         height: 20px;
         padding: 0;
         font-size: 0.5rem;
+        transform: translate(10%, -90%);
     }
     .short-story-title {
         padding:10px;
         font-size: 0.8rem;
     }
-    .column-2{
-        margin: 0 20px;
-    }
+
 }
 
 /* Footer section styles */
