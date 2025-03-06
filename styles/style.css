@@ -148,14 +148,14 @@ body {
     }
     .banner-title {
         margin: 0;
-        font-size: 2rem;
+        font-size: 1.9rem;
         text-align: center;
     }
     .banner-description{
         text-align: center;
     }
     .section-title{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 }
@@ -259,7 +259,7 @@ body {
 /* Responsive Curriculum for mobile devices */
 @media screen and (max-width: 576px) {
     .curriculum{
-        padding: 20px;
+        padding: 10px;
     }
     .curriculum-container {
         grid-template-columns: 1fr;
