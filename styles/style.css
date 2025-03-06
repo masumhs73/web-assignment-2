@@ -154,9 +154,6 @@ body {
     .banner-description{
         text-align: center;
     }
-    .banner-info button{
-        transform: translateX(50%);
-    }
 }
 
 
@@ -265,6 +262,9 @@ body {
     }
     .curriculum .section-title{
         font-size: 2rem;
+    }
+    .curriculum-box-1, .curriculum-box-2, .curriculum-box-3{
+        padding: 10px;
     }
 }
 
@@ -396,13 +396,13 @@ body {
         display: none;
     }
     .column-2 .short-story{
-        width: 210px;
+        width: 180px;
     }
     .column-2 .short-story img{
-        width: 210px;
+        width: 180px;
     }
     .short-story button{
-        width: 140px;
+        width: 120px;
         height: 30px;
         padding: 0;
         font-size: 0.8rem;
