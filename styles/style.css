@@ -161,7 +161,7 @@ body {
     .btn-secondary{
         width: 150px;
         position: absolute;
-        transform: translateX(80%);
+        transform: translateX(50%);
     }
 }
 
@@ -399,7 +399,7 @@ body {
 /* Responsive Stories for mobile devices */
 @media screen and (max-width: 576px) { 
     .stories{
-        padding: 5px;
+        padding: 10px;
     }
     .column-1{
         display: none;
@@ -407,7 +407,7 @@ body {
     .column-2{
         width: 100%;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
     .column-2 .short-story{
         width: 150px;
