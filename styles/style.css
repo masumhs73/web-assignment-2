@@ -114,6 +114,7 @@ label i{
         align-items: center;
         justify-content: space-between;
         margin: 20px;
+
     .nav-logo img{
       margin-top: 15px;
     } 
@@ -161,6 +162,7 @@ label i{
 
 .banner-description {
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .btn-secondary {
@@ -210,6 +212,11 @@ label i{
     justify-items: center;
     padding: 2px 135px;
     margin-bottom: 70px;
+}
+marquee{
+    width: 100%;
+    behavior: alternate;
+    direction: left;
 }
 
 .curriculum-container {
