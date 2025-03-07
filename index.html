@@ -11,34 +11,38 @@
 
 <body>
     <header>
-            <!-- <div class="nav-logo">
+        <nav class="navbar">
+            <div class="nav-logo">
                 <img src="assets/logo.png" alt="">
                 <h3 class="nav-title">SCHOOL</h3>
             </div>
             <div class="nav-list">
+                   <ul>
                     <li id="item-1">Home</li>
                     <li id="item-2">About</li>
                     <li id="item-3">Facilities</li>
                     <li id="item-4">Admission</li>
+                   </ul>
             </div>
             <div class="nav-button">
                 <button class="btn-primary">Contact</button>
             </div>
-        </div> -->
-
-        <nav>
-            <label for="logo">
-                <img src="assets/logo.png" alt="">
-                <h3 class="nav-title">SCHOOL</h3>
-            </label>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="facilities">Facilities</a></li>
-                <li><a href="admission">Admission</a></li>
-            </ul>
-            <button class="btn-primary">Contact</button>
+        
         </nav>
+        <!-- navbar for mobile devices -->
+         <nav class="nav-mobile">
+            <img src="assets/logo.png" alt="">
+            <label for="toggler"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggler">
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Facilities</a></li>
+                    <li><a href="">Admission</a></li>
+                </ul>
+            </div>
+         </nav>
     </header>
 
     <main>
