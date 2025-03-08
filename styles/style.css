@@ -241,7 +241,7 @@ marquee{
 
 .curriculum-box-1 {
     padding: 50px 40px 50px 40px;
-    border-radius: 18.px;
+    border-radius: 18px;
     text-align: center;
     border: 1px solid #DEF5FF;
     background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 10%), #FFF;
@@ -250,7 +250,7 @@ marquee{
 
 .curriculum-box-2 {
     padding: 50px 40px 50px 40px;
-    border-radius: 18.px;
+    border-radius: 18px;
     text-align: center;
     border: 1px solid #FFF4DC;
     background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
@@ -286,6 +286,9 @@ marquee{
     color: #8700FF;
     border: none;
     background: none;
+}
+.curriculum-container button{
+    margin-bottom: 20px;
 }
 
 #btn-angle {
@@ -488,8 +491,9 @@ marquee{
 
 .footer-logo {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .footer-logo img {
@@ -510,6 +514,7 @@ marquee{
 
 .footer-about-title {
     font-size: 1.5rem;
+    margin-bottom: 50px;
 }
 
 .footer-about li {
@@ -520,6 +525,7 @@ marquee{
 
 .social-title {
     font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .social-media img {
