@@ -230,6 +230,7 @@ marquee{
     font-size: 1.5rem;
     font-weight: 700;
     color: #202020;
+    margin: 20px 0;
 }
 
 .curriculum-box-description {
@@ -240,7 +241,7 @@ marquee{
 
 .curriculum-box-1 {
     padding: 50px 40px 50px 40px;
-    border-radius: 18.864px;
+    border-radius: 18.px;
     text-align: center;
     border: 1px solid #DEF5FF;
     background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 10%), #FFF;
@@ -249,7 +250,7 @@ marquee{
 
 .curriculum-box-2 {
     padding: 50px 40px 50px 40px;
-    border-radius: 18.864px;
+    border-radius: 18.px;
     text-align: center;
     border: 1px solid #FFF4DC;
     background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
@@ -369,7 +370,7 @@ marquee{
 .story-title {
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0;
 }
 
 .story-description {
